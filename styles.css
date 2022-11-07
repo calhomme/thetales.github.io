@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'silk_serifregular';
-    src: url('./fonts/silk_serif_regular-webfont.woff2') format('woff2'),
+    src: url('/fonts/silk_serif_regular-webfont.woff2') format('woff2'),
         url('fonts/silk_serif_regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
