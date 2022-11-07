@@ -87,16 +87,18 @@ body {
     0% {
         transform: rotate(0deg);
         box-shadow: 1px 5px 2px #DDD3A0;
-        
+
     }
+
     50% {
         transform: rotate(180deg);
         box-shadow: 1px 5px 2px #DDD3A0;
     }
+
     100% {
         transform: rotate(360deg);
         box-shadow: 1px 5px 2px #DDD3A0;
-    } 
+    }
 }
 
 .circle:before {
@@ -241,7 +243,7 @@ header h2 {
     opacity: .5;
     animation: glitch 7s infinite;
     box-shadow: 0 0 50px 50px black inset;
-    mix-blend-mode: difference; 
+    mix-blend-mode: difference;
 }
 
 @keyframes glitch {
@@ -249,30 +251,39 @@ header h2 {
         background-position: 0 0;
         filter: hue-rotate(0deg);
     }
+
     10% {
         background-position: 2px 0;
     }
+
     20% {
         background-position: -2px 0;
     }
+
     30% {
         background-position: 4px 0;
     }
+
     40% {
         background-position: -8px 0;
     }
+
     50% {
         background-position: 8px 9px;
     }
+
     60% {
         background-position: 2px 0;
     }
+
     70% {
         background-position: 0 2px;
     }
+
     80% {
         background-position: -3px 0;
     }
+
     100% {
         background-position: 0 0;
         filter: hue-rotate(360deg);
@@ -314,7 +325,7 @@ header h2 {
 ul {
     margin: 0;
     padding: 0;
-    
+
     position: absolute;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -340,13 +351,15 @@ ul {
     left: 70vw;
 }
 
-.nav-country a, .nav-country2 a {
+.nav-country a,
+.nav-country2 a {
     flex-grow: 1;
     font-size: 5rem;
     transition: all 300ms ease-in-out;
 }
 
-.nav-country a:hover, .nav-country2 a:hover {
+.nav-country a:hover,
+.nav-country2 a:hover {
     flex-grow: 2;
     font-size: 7rem;
 }
@@ -359,7 +372,6 @@ footer {
     align-items: center;
     background-color: black;
     height: 10vh;
-    position: fixed;
     bottom: 0;
     width: 100%;
 }
@@ -380,6 +392,7 @@ footer a {
         justify-content: center;
         align-items: center;
     }
+
     .nav-container {
         padding: 0;
     }
@@ -390,6 +403,7 @@ footer a {
     * {
         text-align: center;
     }
+
     .nav-container {
         padding: 0;
     }
@@ -424,7 +438,7 @@ footer a {
         position: relative;
         right: 0vw;
     }
-    
+
     .nav-country2 {
         position: relative;
         left: 0vw;
